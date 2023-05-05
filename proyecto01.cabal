@@ -25,9 +25,7 @@ source-repository head
 
 library
   exposed-modules:
-      Lib
       Tp1
-      Tp2
   other-modules:
       Paths_proyecto01
   hs-source-dirs:
