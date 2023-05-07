@@ -42,3 +42,6 @@ incrementMCuadradoN m  = (+m).(^2)
 --ejercicio 10
 esResultadoPar:: Integral a=> a -> a -> Bool
 esResultadoPar n m= even.(^m) $ n
+
+--ejercicio 11
+

@@ -112,28 +112,6 @@ funcion True = "hola como estas"
 funcion False = "no puedo responder "
 
 
---ejercicios de composicion y aplicacion parcial
---guia 2
-
---ejercicio 1
-siguiente::Int-> Int
-siguiente = (+1)
-
---ejercicio 2
-mitadNum:: Fractional a=>a->a 
-mitadNum = (/2)
-
-mitadInt:: Integral a=>a->a
-mitadInt num = div num 2
-
---ejercicio 3
-
-
---ejercicio 4
-triple:: Num a=>a->a
-triple num= num*num*num
-
---ejercicio 5
 
 
 
