@@ -68,6 +68,9 @@ mezclar (sustanciaUno,cantMolesUno)(sustanciaDos,cantMolesDos)= (Compuesto [(sus
 
 calculoFormula2:: Sustancia -> Int -> String
 calculoFormula2 (Elemento _ _ simbolo _ _) moles
+
+hola:: String -> String
+hola _ = "hola"
     |moles==1 =simbolo
     |moles/=1 =simbolo ++ show(moles)
 calculoFormula2 (Compuesto _ simbolo _ _) moles 
